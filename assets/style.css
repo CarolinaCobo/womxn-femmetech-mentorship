@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&display=swap');
 
 body, html {
     height: 100%;
@@ -8,7 +8,6 @@ body, html {
   h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
-    font-size: 30px;
   }
 
   a.navbar-brand {
@@ -24,6 +23,28 @@ body, html {
       font-weight: lighter;
   }
 
+  .logo {
+      font-size: 60px;
+      text-align: center;
+      background: linear-gradient(90deg, rgba(225,180,211,1) 20%, rgba(234,219,128,1) 54%, rgba(174,221,239,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .slogan {
+      font-size: 30px;
+      text-align: center;
+      color: #F7EAE2;
+  }
+
+  .register-text {
+      text-align: center;
+  }
+
+  p {
+      font-family: 'Montserrat', sans-serif;
+  }
+
   .hero-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/Images/heroimage.JPG);
     height: 600px;
@@ -34,7 +55,6 @@ body, html {
     position: relative;
     
   }
-  
   
   .hero-text {
     position: absolute;
