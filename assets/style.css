@@ -4,11 +4,17 @@ body, html {
     height: 100%;
     margin: 0;
     text-align: center;
+    background: rgb(225,180,211);
+    background: linear-gradient(99deg, rgba(225,180,211,1) 20%, rgba(174,221,239,1) 41%, rgba(234,219,128,1) 99%);
   }
 
   h1 {
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
+  }
+
+  nav {
+      background-color:#F7EAE2;
   }
 
   a.navbar-brand {
@@ -54,7 +60,6 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
   }
   
   .hero-text {
@@ -65,7 +70,7 @@ body, html {
     color: white;
   }
 
-form {
-    display: inline-block;
-}
+  form {
+     display: inline-block;
+  }
   
