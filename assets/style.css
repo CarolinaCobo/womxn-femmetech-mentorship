@@ -55,6 +55,10 @@ form {
   border-color: #f7eae2;
 }
 
+.btn:hover {
+  color:rgba(174, 221, 239, 1);
+}
+
 footer {
   position: fixed;
   left: 0;
