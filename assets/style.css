@@ -49,6 +49,16 @@ form {
   display: inline-block;
 }
 
+.btn-info {
+  color: black;
+  background-color: #f7eae2;
+  border-color: #f7eae2;
+}
+
+.btn:hover {
+  color:rgba(174, 221, 239, 1);
+}
+
 footer {
   position: fixed;
   left: 0;
@@ -97,7 +107,64 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  
 }
+
+/* Events page image*/
+.event-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/Images/event-image.JPG);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.event-text {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7eae2;
+}
+
+/* Hackathon event */
+
+.hackathon {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/Images/hackathon.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  height: 300px;
+  width: 100%;
+  border-radius: 25px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.hackathon h5 {
+  color: #f7eae2;
+}
+
+.hackathon p {
+  color: #f7eae2;
+}
+
+/* dividers*/
+
+hr {
+  width: 100px;
+  height: 5px;
+  border: 0;
+  background-color: #f7eae2;
+}
+
 
 .footer-icons {
   color: #f7eae2;
