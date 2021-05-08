@@ -60,7 +60,7 @@ form {
 }
 
 footer {
-  position: fixed;
+  margin-top: auto;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -134,4 +134,39 @@ hr {
 .footer-icons {
   color: #f7eae2;
 
+}
+
+
+/* How are we section */
+.card {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: none; 
+  
+}
+
+.card-deck {
+  margin: 0 20px 20px 20px;
+}
+
+#testimonials {
+  margin-top: 50px;
+  margin-bottom: 90px;
+  min-height: 25%;
+  background-color: #fff ;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.testimonial-text {
+  margin-top: 5%;
+  font-size: 2rem;
+  line-height: 1.5;
+  
+
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
