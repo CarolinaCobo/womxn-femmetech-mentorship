@@ -110,9 +110,9 @@ footer {
   
 }
 
-.event {
-  padding-top: 10px;
-}
+/* Events */
+
+
 
 .event-image img {
  border-radius: 50%;
@@ -120,6 +120,7 @@ footer {
  width: 200px;
  position: relative;
 }
+
 
 /* dividers*/
 
