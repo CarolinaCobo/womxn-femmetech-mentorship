@@ -1,76 +1,105 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Montserrat&display=swap");
 
-body, html {
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    background: rgb(225,180,211);
-    background: linear-gradient(99deg, rgba(225,180,211,1) 20%, rgba(174,221,239,1) 41%, rgba(234,219,128,1) 99%);
-  }
+body,
+html {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background: rgb(225, 180, 211);
+  background: linear-gradient(
+    99deg,
+    rgba(225, 180, 211, 1) 20%,
+    rgba(174, 221, 239, 1) 41%,
+    rgba(234, 219, 128, 1) 99%
+  );
+}
 
-  h1 {
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-  }
+h1 {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+}
 
-  nav {
-      background-color:#F7EAE2;
-  }
+nav {
+  background-color: #f7eae2;
+}
 
-  a.navbar-brand {
-    font-family: 'Comfortaa', cursive;
-    font-weight: bold;
-    background: linear-gradient(90deg, rgba(225,180,211,1) 20%, rgba(234,219,128,1) 54%, rgba(174,221,239,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+a.navbar-brand {
+  font-family: "Comfortaa", cursive;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgba(225, 180, 211, 1) 20%,
+    rgba(234, 219, 128, 1) 54%,
+    rgba(174, 221, 239, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  h2 {
-      font-family: 'Comfortaa', cursive;
-      font-weight: lighter;
-  }
+h2 {
+  font-family: "Comfortaa", cursive;
+  font-weight: lighter;
+}
 
-  .logo {
-      font-size: 60px;
-      text-align: center;
-      background: linear-gradient(90deg, rgba(225,180,211,1) 20%, rgba(234,219,128,1) 54%, rgba(174,221,239,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+p {
+  font-family: "Montserrat", sans-serif;
+}
 
-  .slogan {
-      font-size: 30px;
-      text-align: center;
-      color: #F7EAE2;
-  }
+form {
+  display: inline-block;
+}
 
-  .register-text {
-      text-align: center;
-  }
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
 
-  p {
-      font-family: 'Montserrat', sans-serif;
-  }
+.logo {
+  font-size: 60px;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(225, 180, 211, 1) 20%,
+    rgba(234, 219, 128, 1) 54%,
+    rgba(174, 221, 239, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/Images/heroimage.JPG);
-    height: 600px;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
+.slogan {
+  font-size: 30px;
+  text-align: center;
+  color: #f7eae2;
+}
 
- form {
-     display: inline-block;
-  }
-  
+.register-text {
+  text-align: center;
+}
+
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/Images/heroimage.JPG);
+  height: 600px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.footer-icons {
+  color: #f7eae2;
+
+}
