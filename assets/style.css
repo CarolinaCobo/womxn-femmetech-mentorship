@@ -97,6 +97,28 @@ footer {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  
+}
+
+
+.event-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/assets/Images/event-image.JPG);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.event-text {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f7eae2;
 }
 
 .footer-icons {
