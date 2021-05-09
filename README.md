@@ -9,10 +9,6 @@ Each of us has different coding experience, as we are on different levels and fr
 
 We decided to create a webpage that will help other women gather some information from our female mentors about what IT means today, what the IT sector can offer to women, and which path could be the best for each of our visitors and why. 
 
-A deployed link to the website can be found **[here](https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html)**.
-
-![Mockup](assets/Images/mockup.png)
-
 # User Experience (UX)
 
 This page was created for women, of all ages, cultures and backgrounds. Some of them:
