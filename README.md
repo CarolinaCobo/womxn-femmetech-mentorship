@@ -1,6 +1,6 @@
 # womxn-femmetech-mentorship
 Click [here](https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html) to visit the live site.
-<img src="assets/images/womxn.JPG">
+<img src="assets/Images/womxn.JPG">
 
 # Introduction
 
