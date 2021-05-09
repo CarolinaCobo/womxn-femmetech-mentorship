@@ -114,7 +114,6 @@ footer {
 }
 
 /* Events */
-
 .event-image img {
  border-radius: 50%;
  height: 200px;
@@ -122,15 +121,13 @@ footer {
  position: relative;
 }
 
-/* dividers*/
-
+/* Dividers*/
 hr {
   width: 100px;
   height: 5px;
   border: 0;
   background-color: #f7eae2;
 }
-
 
 footer a {
   font-size: 1.5em;
@@ -141,12 +138,10 @@ footer a {
   color: #f7eae2;
 }
 
-
 /* How are we section */
 .card {
   background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   border: none; 
-  
 }
 
 .card-deck {
@@ -170,8 +165,6 @@ footer a {
   margin-top: 5%;
   font-size: 180%;
   line-height: 1.5;
-  
-
 }
 
 .testimonial-image {
@@ -179,7 +172,6 @@ footer a {
   border-radius: 100%;
   margin: 20px;
 }
-
 
 
 /* MEDIA QUERRIES */
@@ -194,15 +186,13 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-
 }
 
 /* Special margins / padding */
 #testimonials {
  max-width: 98%;
 }
-
- }
+}
 
 /* Large devices (Laptops/desktops, 992px to 1200px) */
 @media (min-width: 992px) {
