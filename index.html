@@ -50,15 +50,50 @@
                     <h1 class="logo">WOMXN</h1>
                     <h2 class="slogan">FEMMETECH MENTORSHIPS</h2>
                     <form action="/action_page.php" class="container">
-                        <p class="register-text">Enter your email to subscribe to our newsletter and keep up to date with 
+                        <p class="register-text">Enter your email to subscribe to our newsletter and keep up to date
+                            with
                             events and new tech mentors! </p>
-                       
                         <button type="submit" class="btn btn-info">Subscribe</button>
                     </form>
                 </div>
             </div>
         </section>
     </article>
+    <form id="form">
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-user prefix grey-text"></i><br>
+                            <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                            <input type="text" id="name" class="form-control validate">
+                        </div>
+
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i><br>
+                            <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                            <input type="email" id="form29" class="form-control validate">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button id="button" class="btn btn-info">Send<i
+                                class="fas fa-paper-plane-o ml-1"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+
 
 
     <!-- MAIN BODY -->
@@ -67,97 +102,104 @@
     <p class="grey-text w-responsive mx-auto mb-5">
         Get virtual mentorship from mentors from the world’s leading companies in our global community.
         <br>
-        It's the moment to start meaningful and inspiring conversations around the world. 
+        It's the moment to start meaningful and inspiring conversations around the world.
         <br>
         Join a community of mentors and mentees inspiring creativity together in a whole new way.
         <br>
         If you want to check out the available mentors click at the bottom below.
+        
 
         <!-- Register button -->
     <div class="text-center">
         <a href="mentors.html" class="btn btn-info">Mentors</a>
     </div>
-    
+
     </p>
 
     <h2 class="h1-responsive font-weight-bold my-5 pt-4">
         More about us
     </h2>
-        <div class="card-deck">
-            <div class="card">
-                <div class="card-body">
-                    <i class="fas fa-user-friends"></i>
-                    <h5 class="card-title">Who are we?</h5>
-                    <p class="card-text"> 
-                        We are a group self taught women software developer. <br>
-                        We want to offer support
-                        to other people that as us,
-                        are learning at the moment and need guidance from an industry expert. <br>
-                        Our own experience motivated us to open this space and help people around the world to connect.  
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-user-friends"></i>
+                <h5 class="card-title">Who are we?</h5>
+                <p class="card-text">                    
+                    <p align="justify">We are a group self taught women software developer.
                     </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <i class="fas fa-mountain"></i>
-                    <h5 class="card-title">Our Mission</h5>
-                    <p class="card-text">We are on a mission to offer mentorship for all. We're a platform for people
-                        to find, book and meet mentors around the world.
-                        <br>
-                        We offer information about events that are happening in different locations.
-                        <br>
-                        Our mission is also to offer a platform for professionals that want to offer their knowledge 
-                        and to help future professionals.
-                        <br>
-
+                    <p align="justify">Our own experience motivated us to open this space and help people around the world to connect.
                     </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <i class="fas fa-list-ul"></i>
-                    <h5 class="card-title"> How it works</h5>
-                    <p class="card-text">
-                        
-                      In our Mentors page you can see the mentors available at the moment. <br>
-                        Once you have picked one, send us a message to request the mentor you are interested in. <br>
-                        We will review your application and we will put you in contact with your new mentor. <br>
-                    
-                </div>
+                <p align="justify"> We want to offer support
+                    to other people that as us,
+                    are learning at the moment and need guidance from an industry expert.</p>
 
+
+                </p>
             </div>
         </div>
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-mountain"></i>
+                <h5 class="card-title">Our Mission</h5>
+                <p class="card-text" align="justify">
+                    <p align="justify">We are on a mission to offer mentorship for all. We're a platform for people
+                        to find, book and meet mentors around the world.</p>
+                    <p align="justify">We offer information about events that are happening in different locations.</p>
+                    <p align="justify">Our mission is also to offer a platform for professionals that want to offer their knowledge
+                        and to help future professionals.</p>
 
-        <h2 class="h1-responsive font-weight-bold my-5 pt-4">
-            Testimonials
-        </h2>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-list-ul"></i>
+                <h5 class="card-title"> How it works</h5>
+                <p class="card-text">
+
+                <p align="justify">In our Mentors page you can see the mentors available at the moment. </p>
+                <p align="justify"> Once you have picked one, send us a message to request the mentor you are interested
+                    in. </p>
+                <p align="justify">We will review your application and we will put you in contact with your new mentor.
+                </p>
+
+            </div>
+
+        </div>
+    </div>
+
+    <h2 class="h1-responsive font-weight-bold my-5 pt-4">
+        Testimonials
+    </h2>
 
 
-        <section class="colored-section" id="testimonials">
+    <section class="colored-section" id="testimonials">
 
-              <div id="testimonial-carousel" class="carousel slide" data-ride="false">
-                <div class="carousel-inner">
-                  <!-- The first one has to be active -->
-                  <div class="carousel-item active container-fluid">
-                    <h2 class="testimonial-text">This is one of the sites that has helped me the most since I started to learn development.</h2>
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <!-- The first one has to be active -->
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">This is one of the sites that has helped me the most since I started to
+                        learn development.</h2>
                     <img class="testimonial-image" src="assets/Images/rose.jpeg" alt="dog-profile">
                     <p><em>Rose, Dublin</em></p>
-                  </div>
-        
-                  <div class="carousel-item container-fluid">
-                    <h2 class="testimonial-text">I was so lost and after talking to my mentor , everything is starting to make sense </h2>
+                </div>
+
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">I was so lost and after talking to my mentor , everything is starting
+                        to make sense </h2>
                     <img class="testimonial-image" src="assets/Images/beverly.jpeg" alt="img1">
                     <p><em>Beverly, London</em></p>
-                  </div>
-                  <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                  </a>
-                  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                  </a>
                 </div>
-        
-        </section>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+    </section>
 
 
 
