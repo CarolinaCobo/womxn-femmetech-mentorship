@@ -184,7 +184,7 @@ footer a {
 @media (min-width: 1200px) {
   /* Footer */
 footer {
-  position: absolute;
+  position: relative;
   margin-top: auto;
   left: 0;
   bottom: 0;
