@@ -131,15 +131,6 @@ hr {
   background-color: #f7eae2;
 }
 
-/* Footer */
-footer {
-  position: fixed;
-  margin-top: auto;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
 
 footer a {
   font-size: 1.5em;
@@ -184,3 +175,21 @@ footer a {
   border-radius: 100%;
   margin: 20px;
 }
+
+
+
+/* MEDIA QUERRIES */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Footer */
+footer {
+  position: absolute;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ }
