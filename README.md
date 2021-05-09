@@ -83,51 +83,64 @@ This is the "cream de la cream" in our projects. Here our visitors:
 
 # Technologies Used
 
- - HTML5 - used for building the website
- - CSS3 - for styling elements
+ - HTML5
+ - CSS3 
  - JavaScript
 
  # Testing
 
- ## User Stories testing
+## User Stories testing
 
- ### First Time Visitor Goals
+In our opinion, this project covers all users needs descibed in the section above.
 
- ### Returning Visitors
+## Links
 
-### Links
+All links working fine, just like we wanted.
 
-### Responsive Design
+## Responsive Design
 
- ### Validators
+Yes, our page is responsive :)
+
+
+## Validators
  
-  To validate this project we used:
+To validate this project we used:
 
-  1. [HTML validator](https://validator.w3.org/)
-  2. [CSS validator](https://jigsaw.w3.org/css-validator/)
-  3. [JS validator](https://jshint.com/)
+1. [HTML validator](https://validator.w3.org/)
+2. [CSS validator](https://jigsaw.w3.org/css-validator/)
+3. [JS validator](https://jshint.com/)
 
- ### Browser Compatitbility
- Google Chrom 
- Mozilla
- Opera
+## Bowser Compatitbility
 
- ### Grammar and spelling
+Our project works fine on different browsers. It was tesed on :
 
- ### Lighthouse
+- Google Chrom 
+- Mozilla
+- Opera
 
- # Deployment
+## Grammar and spelling
 
- ## Github
+Was made, as well.
 
- To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
-  1. log into GitHub.
-  2. From the list of repositories on the screen, select madatoo/ms2-sligo
-  3. From the menu items near the top of the page, select Settings.
-  4. Scroll down to the GitHub Pages section.
-  5. Under Source click the drop-down menu labelled None and select Master Branch
-  6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
-  7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
+## Lighthouse
+
+- Performance 70
+- Accesibility 97
+- Best practis 93
+- SEO 83
+
+# Deployment
+
+## Github
+
+To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
+1. log into GitHub.
+2. From the list of repositories on the screen, select madatoo/ms2-sligo
+3. From the menu items near the top of the page, select Settings.
+4. Scroll down to the GitHub Pages section.
+5. Under Source click the drop-down menu labelled None and select Master Branch
+6. On selecting Master Branch the page is automatically refreshed, the website is now deployed.
+7. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
 Run this project locally (clone this project into Gitpod) you will need:
 
@@ -173,22 +186,20 @@ Content was created by us. We were looking at similar pages to get some ideas ab
 - [Mentor](https://www.mentoring.org/)
 - [Adplist](https://adplist.org/)
 
+# Acknowledgements
 
+1. Code Institute for an opportunity to meet, have fun, build a community #women-in-tech and allowing us to work together to build this page.
 
- # Acknowledgements
+2. Our mentor Jim_Lynx 
 
- 1. Code Institute for an opportunity to meet, have fun, build a community #women-in-tech and allowing us to work together to build this page.
+3.  All team members:
+- Carolina Cobo, 
+- Elrie, 
+- Joan Amudu, 
+- Magdalena Ruszaj,
+- Vanja
 
- 2. Our mentor Jim_Lynx 
+# Disclaimer
 
- 3.  All team members:
-  - Carolina Cobo, 
-  - Elrie, 
-  - Joan Amudu, 
-  - Magdalena Ruszaj,
-  - Vanja
-
- # Disclaimer
-
- Content on this page is created only for first #women-in-tech Hackathon in Code Institute. 
+Content on this page is created only for first #women-in-tech Hackathon in Code Institute. 
 
