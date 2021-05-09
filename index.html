@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WomXn FemmeTech Mentorship</title>
-
+    <title>WomXn FemmeTech Mentorships</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -17,7 +16,6 @@
 </head>
 
 <body>
-
     <!-- Navbar -->
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -50,33 +48,145 @@
                     <h1 class="logo">WOMXN</h1>
                     <h2 class="slogan">FEMMETECH MENTORSHIPS</h2>
                     <form action="/action_page.php" class="container">
-                        <p class="register-text">Enter your email to register to start connecting with empowering female
-                            tech mentors! </p>
-                        <input type="text" placeholder="Enter Email" name="email" required>
-                        <button type="submit" class="btn btn-info">Register</button>
+                        <p class="register-text">Enter your email to subscribe to our newsletter and keep up to date
+                            with events and new tech mentors! </p>
+                            <a href="" class="btn btn-info" data-toggle="modal" data-target="#modalContactForm">Subscribe</a>
                     </form>
                 </div>
             </div>
         </section>
     </article>
-
+    <form id="form">
+        <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form mb-5">
+                            <i class="fas fa-user prefix grey-text"></i><br>
+                            <label data-error="wrong" data-success="right" for="form34">Your name</label>
+                            <input type="text" id="name" class="form-control validate">
+                        </div>
+                        <div class="md-form mb-5">
+                            <i class="fas fa-envelope prefix grey-text"></i><br>
+                            <label data-error="wrong" data-success="right" for="form29">Your email</label>
+                            <input type="email" id="form29" class="form-control validate">
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button id="button" class="btn btn-info">Send<i
+                                class="fas fa-paper-plane-o ml-1"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
 
     <!-- MAIN BODY -->
+    <h2 class="h1-responsive font-weight-bold my-5 pt-4">Find, Book and Meet Mentors around the world</h2>
+    <p class="grey-text w-responsive mx-auto mb-5">
+        Get virtual mentorship from mentors from the world’s leading companies in our global community.
+        <br>
+        It's the moment to start meaningful and inspiring conversations around the world.
+        <br>
+        Join a community of mentors and mentees inspiring creativity together in a whole new way.
+        <br>
+        If you want to check out the available mentors click at the button below.
+        <!-- Register button -->
+        <div class="text-center">
+            <a href="mentors.html" class="btn btn-info">Mentors</a>
+        </div>
+    </p>
 
+    <h2 class="h1-responsive font-weight-bold my-5 pt-4">
+        More about us
+    </h2>
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-user-friends"></i>
+                <h5 class="card-title">Who are we?</h5>
+                <p class="card-text">                    
+                    <p align="justify">We are a group self taught women software developer.</p>
+                    <p align="justify">Our own experience motivated us to open this space and help people around the world to connect.</p>
+                    <p align="justify"> We want to offer support to other people that like us, are learning at the moment and need guidance from an industry expert.</p>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-mountain"></i>
+                <h5 class="card-title">Our Mission</h5>
+                <p class="card-text" align="justify">
+                    <p align="justify">We are on a mission to offer mentorship for all. We're a platform for people
+                        to find, book and meet mentors around the world.</p>
+                    <p align="justify">We offer information about events that are happening in different locations.</p>
+                    <p align="justify">Our mission is also to offer a platform for professionals that want to offer their knowledge
+                        and to help future professionals.</p>
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <i class="fas fa-list-ul"></i>
+                <h5 class="card-title"> How it works</h5>
+                <p class="card-text">
+                    <p align="justify">In our Mentors page you can see the mentors available at the moment. </p>
+                    <p align="justify"> Once you have picked one, send us a message to request the mentor you are interested in. </p>
+                    <p align="justify">We will review your application and we will put you in contact with your new mentor.
+                </p>
+            </div>
+        </div>
+    </div>
 
-    <footer >
+    <h2 class="h1-responsive font-weight-bold my-5 pt-4">
+        Testimonials
+    </h2>
+
+    <section class="colored-section" id="testimonials">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+                <!-- The first one has to be active -->
+                <div class="carousel-item active container-fluid">
+                    <h2 class="testimonial-text">This is one of the sites that has helped me the most since I started to
+                        learn development.</h2>
+                    <img class="testimonial-image" src="assets/Images/rose.jpeg" alt="dog-profile">
+                    <p><em>Rose, Dublin</em></p>
+                </div>
+                <div class="carousel-item container-fluid">
+                    <h2 class="testimonial-text">I was so lost and after talking to my mentor , everything is starting
+                        to make sense </h2>
+                    <img class="testimonial-image" src="assets/Images/beverly.jpeg" alt="img1">
+                    <p><em>Beverly, London</em></p>
+                </div>
+                <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </div>   
+    </section>
+
+    <footer>
         <!-- social media icons -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook footer-icons"></i></a>
             <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram footer-icons"></i></a>
             <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin footer-icons"></i></a>
         </div>
-        <!-- maybe Copyright infor ? -->
     </footer>
 
     <!-- SCRIPTS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js" async></script>
 </body>
-
 </html>

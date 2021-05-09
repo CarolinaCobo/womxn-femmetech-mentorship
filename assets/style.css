@@ -17,6 +17,7 @@ html {
 h1 {
   font-family: "Comfortaa", cursive;
   font-weight: bold;
+  font-size: 270%;
 }
 
 nav {
@@ -39,10 +40,12 @@ a.navbar-brand {
 h2 {
   font-family: "Comfortaa", cursive;
   font-weight: lighter;
+  font-size: 280%;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-size: 120%;
 }
 
 form {
@@ -60,7 +63,7 @@ form {
 }
 
 footer {
-  position: fixed;
+  margin-top: auto;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -68,7 +71,7 @@ footer {
 }
 
 .logo {
-  font-size: 60px;
+  font-size: 390%;
   text-align: center;
   background: linear-gradient(
     90deg,
@@ -81,7 +84,7 @@ footer {
 }
 
 .slogan {
-  font-size: 30px;
+  font-size: 200%;
   text-align: center;
   color: #f7eae2;
 }
@@ -92,7 +95,7 @@ footer {
 
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/assets/Images/heroimage.JPG);
+    url(../assets/Images/heroimage.JPG);
   height: 600px;
   width: 100%;
   background-position: center;
@@ -110,10 +113,7 @@ footer {
   
 }
 
-.event {
-  padding-top: 10px;
-}
-
+/* Events */
 .event-image img {
  border-radius: 50%;
  height: 200px;
@@ -121,8 +121,7 @@ footer {
  position: relative;
 }
 
-/* dividers*/
-
+/* Dividers*/
 hr {
   width: 100px;
   height: 5px;
@@ -130,7 +129,77 @@ hr {
   background-color: #f7eae2;
 }
 
+footer a {
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
 .footer-icons {
   color: #f7eae2;
+}
 
+/* How are we section */
+.card {
+  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  border: none; 
+}
+
+.card-deck {
+  margin: 0 20px 20px 20px;
+}
+
+.card-body{
+  margin: 1.5em 1.5em;
+}
+
+#testimonials {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  min-height: 25%;
+  background-color: #fff ;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.testimonial-text {
+  margin-top: 5%;
+  font-size: 180%;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* MEDIA QUERRIES */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Footer */
+footer {
+  position: relative;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Special margins / padding */
+#testimonials {
+ max-width: 98%;
+}
+}
+
+/* Large devices (Laptops/desktops, 992px to 1200px) */
+@media (min-width: 992px) {
+
+/* Special margins / padding */
+#testimonials {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
 }
