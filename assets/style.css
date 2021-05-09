@@ -131,6 +131,12 @@ hr {
   background-color: #f7eae2;
 }
 
+/* Footer */
+footer a {
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
 .footer-icons {
   color: #f7eae2;
 
