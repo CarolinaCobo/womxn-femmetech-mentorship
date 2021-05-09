@@ -134,7 +134,13 @@ hr {
 /* Footer */
 footer {
   position: fixed;
+  margin-top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
+
 footer a {
   font-size: 1.5em;
   padding: 0 10px;
