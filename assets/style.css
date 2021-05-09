@@ -132,6 +132,9 @@ hr {
 }
 
 /* Footer */
+footer {
+  position: fixed;
+}
 footer a {
   font-size: 1.5em;
   padding: 0 10px;
