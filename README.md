@@ -11,30 +11,31 @@ We decided to create a webpage that will help other women gather some informatio
 
 # User Experience (UX)
 
-This page was created for women, in their middle age. Some of them:
-- could try to come back to work after a long stay at home with their children (or for any other reason),
-- are not very happy in their own working lives, and want to switch to a different role, especially in the tech industry,
-- want to build a new career in IT and use their previous work and life experiences in the new role,
-- want to upskill their knowledge in new technologies,
-- develop own skills to higher level and become a pro in a specific field in IT. 
+This page was created for women, of all ages, cultures and backgrounds. Some of them:
+- Could try to come back to work after a long stay at home with their children (or for any other reason),
+- Are not very happy in their own working lives, and want to switch to a different role, especially in the tech industry,
+- Want to build a new career in IT and use their previous work and life experiences in the new role,
+- Want to upskill their knowledge in new technologies,
+- Develop own skills to higher level and become a pro in a specific field in IT. 
+- Are young girls trying to learn more about the coding and tech world, and the knowledge and tools to get there.  
 
 ## First time Visitor's needs:
 
-- know more about our WomXn page, 
-- read about inspiring women in TECH community,
-- read a little more about possible paths in IT,
-- easily navigate through the whole website,
-- find contact details,
-- find our social media links.
+- Know more about our WomXn page, 
+- Read about inspiring women in TECH community,
+- Read a little more about possible paths in IT,
+- Easily navigate through the whole website,
+- Find contact details,
+- Find our social media links.
 
 
 ## Returning visitors are very often interested in:
 
-- new mentors,
-- upcoming events,
-- new hackathons,
-- following WomXn on our social media,
-- receiving our newsletter with up to date information. 
+- New mentors,
+- Upcoming events,
+- New hackathons,
+- Following WomXn on our social media,
+- Receiving our newsletter with up to date information. 
 
 # Design
 
@@ -45,7 +46,6 @@ This page is created by women for women. We decided to use pastel colors, which 
 
 ## Color Scheme
  
- In our project we decided to use Comforteaa (for headings) and Monteserrat (for paragraphs) fonts.
  For good contrast all text on our site (even headings) are black.
  Our main background colours in RGBA are :
   - 225, 180, 211 (pink),
@@ -54,6 +54,7 @@ This page is created by women for women. We decided to use pastel colors, which 
  
 
 ## Typography
+In our project we decided to use Comforteaa (for headings) and Monteserrat (for paragraphs) taken from Google Fonts.
 
 ## Imagery
 
