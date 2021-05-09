@@ -153,9 +153,13 @@ footer a {
   margin: 0 20px 20px 20px;
 }
 
+.card-body{
+  margin: 1.5em 1.5em;
+}
+
 #testimonials {
   margin-top: 50px;
-  margin-bottom: 90px;
+  margin-bottom: 100px;
   min-height: 25%;
   background-color: #fff ;
   margin-left: 5%;
@@ -184,18 +188,18 @@ footer a {
 @media (min-width: 1200px) {
   /* Footer */
 footer {
-  position: fixed;
+  position: relative;
   margin-top: auto;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+
 }
 
 /* Special margins / padding */
 #testimonials {
-  margin-left: 2%;
-  margin-right: 2%;
+ max-width: 98%;
 }
 
  }
