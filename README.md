@@ -1,4 +1,6 @@
-# WOMXN Femmetech Mentorships
+# WOMXN: FemmeTech Mentorships
+Click [here](https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html) to visit the live site.
+<img src="assets/Images/mockup.png">
 
 # Introduction
 
