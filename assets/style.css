@@ -158,8 +158,8 @@ footer a {
   margin-bottom: 90px;
   min-height: 25%;
   background-color: #fff ;
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .testimonial-text {
@@ -184,7 +184,7 @@ footer a {
 @media (min-width: 1200px) {
   /* Footer */
 footer {
-  position: relative;
+  position: fixed;
   margin-top: auto;
   left: 0;
   bottom: 0;
@@ -192,4 +192,20 @@ footer {
   text-align: center;
 }
 
+/* Special margins / padding */
+#testimonials {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
  }
+
+/* Large devices (Laptops/desktops, 992px to 1200px) */
+@media (min-width: 992px) {
+
+/* Special margins / padding */
+#testimonials {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+}
