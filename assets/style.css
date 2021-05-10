@@ -191,7 +191,7 @@ footer a {
 @media (min-width: 1200px) {
   /* Footer */
 .footer {
-  position: fixed;
+  /* position: fixed; */
   margin-top: auto;
   left: 0;
   bottom: 0;
@@ -213,4 +213,9 @@ footer a {
   margin-left: 2.5%;
   margin-right: 2.5%;
 }
+}
+
+
+.events2 {
+  margin-top: 50px;
 }
