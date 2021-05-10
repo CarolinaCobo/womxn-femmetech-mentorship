@@ -1,6 +1,6 @@
-# womxn-femmetech-mentorship
+# WOMXN: FemmeTech Mentorships
 Click [here](https://carolinacobo.github.io/womxn-femmetech-mentorship/index.html) to visit the live site.
-<img src="assets/Images/womxn.JPG">
+<img src="assets/Images/mockup.png">
 
 # Introduction
 
@@ -84,11 +84,27 @@ This is the "cream de la cream" in our projects. Here our visitors:
 -  improve their own skills in our WomXn's Online Web Development Bootcamp, available in CODING BOOTCAMP section, 
 - or work during WOMXN HACKATHON which is an intensive event where our users will be presented with a problem and will have 5 days to come up with a really good solution.
 
-# Technologies Used
+# Technologies
 
- - HTML5
- - CSS3 
- - JavaScript
+## Languages
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5 "HTML5")
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "CSS3") 
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
+
+## Frameworks, Libraries & Programs
+
+* [Bootstrap](https://getbootstrap.com/ "Bootstrap")
+* [Figma](https://www.figma.com/ "Figma")
+* [Gitpod](https://www.gitpod.io/ "Gitpod") 
+* [GitHub](https://github.com/ "GitHub")
+* [Git](https://git-scm.com/) 
+* [Git Pages](https://pages.github.com/) 
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](https://fontawesome.com/)
+* [FavIcon](https://favicon.io/)
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+* [Techsini](http://techsini.com/multi-mockup/index.php)
 
  # Testing
 
@@ -117,7 +133,7 @@ To validate this project we used:
 
 Our project works fine on different browsers. It was tesed on :
 
-- Google Chrom 
+- Google Chrome 
 - Mozilla
 - Opera
 
@@ -127,7 +143,14 @@ Was made, as well.
 
 ## Lighthouse
 
-- Performance 70
+## Desktop
+- Performance 97
+- Accesibility 93
+- Best practis 93
+- SEO 80
+
+## Mobile
+- Performance 75
 - Accesibility 97
 - Best practis 93
 - SEO 83
