@@ -26,7 +26,8 @@ nav {
 
 a.navbar-brand {
   font-family: "Comfortaa", cursive;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 200%;
   background: linear-gradient(
     90deg,
     rgba(225, 180, 211, 1) 20%,
