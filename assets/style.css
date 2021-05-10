@@ -52,6 +52,12 @@ form {
   display: inline-block;
 }
 
+button {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+}
+
 .btn-info {
   color: black;
   background-color: #f7eae2;
