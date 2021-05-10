@@ -190,7 +190,7 @@ footer a {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   /* Footer */
-footer {
+.footer {
   position: fixed;
   margin-top: auto;
   left: 0;
