@@ -54,8 +54,12 @@ form {
 
 button {
   bottom: 0;
+  margin: 0;
   position: absolute;
-  text-align: center;
+
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
 }
 
 .btn-info {
