@@ -64,7 +64,7 @@ It's important for this page, as it improves the user experience.
 
 ## Wireframes
 
-Wireframes for this project are available [here]("/asssets/wireframes/wireframes.pdf")
+Wireframes for this project are available [here]("/assets/wireframes/wireframes.pdf")
 # Features
 
 To keep a consistent layout we decided to keep the same navbar and footer on all of our subpages, these are: Home, Mentors and Events.
